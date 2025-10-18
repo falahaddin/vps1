@@ -1,4 +1,4 @@
-name: RDP_TIPSUNIX
+name: vps1
 
 on:
   workflow_dispatch:
@@ -112,3 +112,4 @@ jobs:
               Write-Host "[$(Get-Date)] RDP Active - Use Ctrl+C in workflow to terminate"
               Start-Sleep -Seconds 300
           }
+
